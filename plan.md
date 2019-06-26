@@ -16,14 +16,19 @@ S2OPC est une implémentation de OPC Unified Architecture, un protocole de commu
 
 ### Réalisation
 #### Systerel
-1. Installation de S2OPC sur la machine (test avec serveur de démo)
-2. Installation de Zephyr: environnement (outils, SDK, etc.) et test sur la carte de développement
-3. Portage de S2OPC sur Zephyr
-  1. Importation du code source de S2OPC vers Zephyr
-  2. Compilation croisée de S2OPC et lien comme bibliothèque statique
-  3. Correction des dépendances de S2OPC, module par module: array, threads, etc.
-
-Tests unitaires avec des assertions simples (assert.h)
+1. Installation
+  1. S2OPC sur la machine (dockers, test avec serveur de démo)
+  2. Zephyr: environnement (outils, SDK, etc.) et test sur la carte de développement
+2. Portage de S2OPC sur Zephyr
+  1. Établissement des travaux à réaliser / Identification des dépendances
+    * Document des dépendances connues sur d'autres plateformes
+    * Documentation Zephyr
+    * Importation et compilation du code source de S2OPC sur Zephyr
+  2. Outils de validation?
+    * Tests unitaires: dépendances entre les modules et les tests, tests qui font appel à plusieurs modules
+    * Intégration continue?
+  3. Portage module par module: array, thread, etc.
+  4. Compilation croisée de S2OPC et lien comme bibliothèque statique
 
 ### Contribution
 Différences entre le développement bare-metal et sur OS embarqué
@@ -33,6 +38,9 @@ Différences entre le développement bare-metal et sur OS embarqué
 2. Multitâche
   1. Interruption, ordonnancement
   2. Thread, sémaphore
+3. Standardisation
+  1. Bibliothèque ou framework propriétaire
+  2. Posix
 
 ## Conclusion
 
