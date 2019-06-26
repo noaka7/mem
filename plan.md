@@ -11,10 +11,23 @@
 ### État de l'art
 
 ### Spécification/conception
+#### Co-assist
+Co-assist développe un bracelet d'alerte de chute. Ma mission était de travailler sur la partie "embarqué". Les objectifs principaux étaient d'améliorer la précision de la détection de chute et de la géolocalisation, d'intégrer un écran et d'afficher l'heure ainsi que des pictogrammes, et d'optimiser l'ergonomie de l'interface
+
 #### Systerel
 S2OPC est une implémentation de OPC Unified Architecture, un protocole de communication industriel. S2OPC est déjà déployé sur Linux et sur Windows. Le sujet du stage est de porter S2OPC sur Zephyr, un système d'exploitation embarqué et temps réel. Il s'agira, à partir des dépendances connues de la pile S2OPC à Windows, d'identifier les équivalences sur Zephyr ou de proposer des solutions de contournement
 
 ### Réalisation
+#### Co-assist
+1. Intégration de composants
+  1. Capteur altimètre
+  2. Carte SD
+2. Développement de modules applicatifs
+  1. Module "inactivité" (traitement de données accéléromètriques)
+  2. Système d'acquisition de données
+  3. Menu d'administration sur la montre (IHM)
+  4. Compression d'images monochromes (algorithme de codage par plages)
+
 #### Systerel
 1. Installation
   1. S2OPC sur la machine (dockers, test avec serveur de démo)
