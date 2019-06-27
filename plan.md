@@ -29,18 +29,34 @@ S2OPC est une implémentation de OPC Unified Architecture, un protocole de commu
   4. Compression d'images monochromes (algorithme de codage par plages)
 
 #### Systerel
-1. Installation
+L'idée est de dégager de mon travail un "workflow" qui pourrait être réutilisé comme ligne directrice dans l'éventualité d'un autre portage
+
+1. Installation <br />
+Il s'agit ici de présenter le modèle de génération de S2OPC et de Zephyr ainsi que les outils nécessaires à installer sur le poste de travail
+
   1. S2OPC sur la machine (dockers, test avec serveur de démo)
+
   2. Zephyr: environnement (outils, SDK, etc.) et test sur la carte de développement
-2. Portage de S2OPC sur Zephyr
+
+2. Portage de S2OPC sur Zephyr <br />
+Il s'agit ici de distinguer les différentes étapes du portage, ainsi que les supports dont je me suis servi, et d'expliquer, pour chaque étape, les méthodes utilisées, le choix des solutions et les écueils rencontrées
+
   1. Établissement des travaux à réaliser / Identification des dépendances
+
     * Document des dépendances connues sur d'autres plateformes
+
     * Documentation Zephyr
+
     * Importation et compilation du code source de S2OPC sur Zephyr
+
   2. Outils de validation?
+
     * Tests unitaires: dépendances entre les modules et les tests, tests qui font appel à plusieurs modules
+
     * Intégration continue?
+
   3. Portage module par module: array, thread, etc.
+
   4. Compilation croisée de S2OPC et lien comme bibliothèque statique
 
 ### Contribution
