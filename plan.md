@@ -26,6 +26,13 @@ S2OPC est une implémentation de OPC Unified Architecture, un protocole de commu
 Tests unitaires avec des assertions simples (assert.h)
 
 ### Contribution
+Différences entre le développement bare-metal et sur OS embarqué
+1. Gestion de la mémoire
+  1. Registre, flash
+  2. Allocation dynamique
+2. Multitâche
+  1. Interruption, ordonnancement
+  2. Thread, sémaphore
 
 ## Conclusion
 
