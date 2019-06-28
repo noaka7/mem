@@ -19,13 +19,26 @@ S2OPC est une implémentation de OPC Unified Architecture, un protocole de commu
 
 ### Réalisation
 #### Co-assist
-1. Intégration de composants
+Cette partie est pour l'instant plutôt désordonnée car je ne trouve pas de "fil conducteur". Comme je n'étais pas le seul à travailler sur le projet, ces réalisations constituent des briques qui n'ont pas de lien évident entre elles. Elles s'intègrent au projet plus ou moins indépendamment les unes des autres. Pour l'instant, j'ai regroupé les tâches en développement de pilotes de périphériques et en développement de modules applicatifs car les approches et les résultats de sortie attendus étaient différents
+
+1. Développement de pilotes de périphériques <br />
+Développement qui comprend la configuration du périphérique et la mise en place de ses échanges avec le système. Des configurations de registre ou des protocoles de communication bas niveau (I2C, SPI) ont été utilisé
+
   1. Capteur altimètre
+
   2. Carte SD
-2. Développement de modules applicatifs
+
+  3. Écran monochrome (debug)
+
+2. Développement de modules applicatifs <br />
+Développement de fonctionnalités pour répondre à des besoins spécifiques et qui repose souvent sur des API propriétaires ou internes
+
   1. Module "inactivité" (traitement de données accéléromètriques)
+
   2. Système d'acquisition de données
+
   3. Menu d'administration sur la montre (IHM)
+
   4. Compression d'images monochromes (algorithme de codage par plages)
 
 #### Systerel
