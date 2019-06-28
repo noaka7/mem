@@ -73,15 +73,25 @@ Il s'agit ici de distinguer les différentes étapes du portage, ainsi que les s
   4. Compilation croisée de S2OPC et lien comme bibliothèque statique
 
 ### Contribution
-Différences entre le développement bare-metal et sur OS embarqué
-1. Gestion de la mémoire
+Différences entre le développement bare-metal et sur OS embarqué <br />
+Dans ce chapitre, basé sur mes expériences et mes recherches, je traiterai des différences de développement bare-metal et sur OS embarqué. J'aborderai en particulier des points que j'ai rencontré
+
+* Gestion de la mémoire
+
   1. Registre, flash
+
   2. Allocation dynamique
-2. Multitâche
+
+* Multitâche
+
   1. Interruption, ordonnancement
+
   2. Thread, sémaphore
-3. Standardisation
+
+* Standardisation
+
   1. Bibliothèque ou framework propriétaire
+
   2. Posix
 
 ## Conclusion
