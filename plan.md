@@ -7,8 +7,10 @@
 ### Contexte
 
 ### Problématique
+Compte tenu de mes deux expériences durant cette formation, où j'ai pu travailler d'un côté sur du développement bare-metal et de l'autre sur OS embarqué, j'aimerais donner mon retour d'expérience et confronter ces deux approches notamment sur des points de programmation rencontrés
 
 ### État de l'art
+todo
 
 ### Spécification/conception
 #### Co-assist
