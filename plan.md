@@ -7,6 +7,9 @@
 ### Contexte
 Dans ce chapitre, afin de recontextualiser le cadre de mes missions, je donnerai des informations sur les entreprises d'accueil, leur situation, le produit ou le service sur lequel j'ai travaillé et l'organisation des équipes dont j'ai fait partie
 
+#### Co-assist
+Co-assist s'inscrit parmi les entreprises de la silver économie, à savoir le marché des seniors. En particulier, elle tente de mettre la technologie au service des personnes âgées avec son produit phare: un bracelet d'alerte. C'est pour l'instant un marché de niche sans acteur majeur. L'entreprise essaie de se distinguer de ses concurrents en proposant à la fois davantage de fonctionnalités et un coût moindre. Pour cela, elle repose sur une maîtrise en interne de toutes les étapes du produit, de la conception à la distribution. Aujourd'hui, Co-assist est divisé en deux sites avec un pôle technique au Havre et un pôle commercial à Paris
+
 ### Problématique
 Compte tenu de mes deux expériences durant cette formation, où j'ai pu travailler d'un côté sur du développement bare-metal et de l'autre sur OS embarqué, j'aimerais donner mon retour d'expérience et confronter ces deux approches notamment sur des points de programmation rencontrés
 
