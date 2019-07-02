@@ -5,6 +5,7 @@
 ## Chapitres
 
 ### Contexte
+Dans ce chapitre, afin de recontextualiser le cadre de mes missions, je donnerai des informations sur les entreprises d'accueil, leur situation, le produit ou le service sur lequel j'ai travaillé et l'organisation des équipes dont j'ai fait partie
 
 ### Problématique
 Compte tenu de mes deux expériences durant cette formation, où j'ai pu travailler d'un côté sur du développement bare-metal et de l'autre sur OS embarqué, j'aimerais donner mon retour d'expérience et confronter ces deux approches notamment sur des points de programmation rencontrés
