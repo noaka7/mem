@@ -10,6 +10,9 @@ Dans ce chapitre, afin de recontextualiser le cadre de mes missions, je donnerai
 #### Co-assist
 Co-assist s'inscrit parmi les entreprises de la silver économie, à savoir le marché des seniors. En particulier, elle tente de mettre la technologie au service des personnes âgées avec son produit phare: un bracelet d'alerte. C'est pour l'instant un marché de niche sans acteur majeur. L'entreprise essaie de se distinguer de ses concurrents en proposant à la fois davantage de fonctionnalités et un coût moindre. Pour cela, elle repose sur une maîtrise en interne de toutes les étapes du produit, de la conception à la distribution. Aujourd'hui, Co-assist est divisé en deux sites avec un pôle technique au Havre et un pôle commercial à Paris
 
+#### Systerel
+Systerel est une société de prestation de services spécialisée dans l’ingénierie des systèmes et logiciels critiques. Elle développe entre autres ses propres produits dont celui sur lequel porte mon stage: S2OPC, une implémentation de protocole de communication industriel issu de la fondation OPC. Systerel est basée à Aix-en-Provence et possède aussi des sites à Malakoff et à Toulouse. L'entreprise compte en tout une centaine de salariés dont une vingtaine à Malakoff où j'effectue mon stage
+
 ### Problématique
 Compte tenu de mes deux expériences durant cette formation, où j'ai pu travailler d'un côté sur du développement bare-metal et de l'autre sur OS embarqué, j'aimerais donner mon retour d'expérience et confronter ces deux approches notamment sur des points de programmation rencontrés
 
