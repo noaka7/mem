@@ -17,7 +17,26 @@ Systerel est une société de prestation de services spécialisée dans l’ing�
 Compte tenu de mes deux expériences durant cette formation, où j'ai pu travailler d'un côté sur du développement bare-metal et de l'autre sur OS embarqué, j'aimerais donner mon retour d'expérience et confronter ces deux approches notamment sur des points de programmation rencontrés
 
 ### État de l'art
-todo
+Pour l'état de l'art, je présenterai les bases des projets depuis lesquelles je suis parti ainsi que les ressources sur lesquelles je me suis reposé lors de mon travail, comment elles m'ont servi, à savoir:
+
+#### Co-assist
+Ayant rejoint le projet lors du passage entre la version 1 et 2, je donnerai une perspective de ce qui existait déjà en terme de code et de fonctionnalités et j'expliquerai, éventuellement, comment j'ai pu m'en servir
+
+Ressources:
+
+* [Documentation du microcontrôleur](https://www.silabs.com/support/resources.p-microcontrollers_32-bit-mcus_leopard-gecko)
+* [Documentation de l'altimètre](https://www.infineon.com/dgdl/Infineon-DPS310-DS-v01_00-EN.pdf?fileId=5546d462576f34750157750826c42242)
+* [Documentation pour la carte SD](https://www.sdcard.org/downloads/pls/index.html)
+* [Documentation de l'API du pilote pour l'écran](https://siliconlabs.github.io/Gecko_SDK_Doc/efm32g/html/group__glib.html)
+
+#### Systerel
+Le projet de portage de S2OPC sur Zephyr a commencé avec mon stage. Néanmoins, le travail de déploiement multi-plateforme sur Linux et sur Windows a été un point de départ. D'autre part, un portage sur un autre OS embarqué (FreeRTOS) se faisait en parallèle de mon stage
+
+Ressources:
+
+* [Dépôt de S2OPC](https://gitlab.com/systerel/S2OPC)
+* [Référence de la carte de développement](https://www.nxp.com/support/developer-resources/evaluation-and-development-boards/i.mx-evaluation-and-development-boards/mimxrt1064-evk-i.mx-rt1064-evaluation-kit:MIMXRT1064-EVK)
+* [Site de Zephyr](https://www.zephyrproject.org/)
 
 ### Spécification/conception
 #### Co-assist
