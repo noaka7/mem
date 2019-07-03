@@ -83,25 +83,31 @@ Il s'agit ici de distinguer les différentes étapes du portage, ainsi que les s
 
 ### Contribution
 Différences entre le développement bare-metal et sur OS embarqué <br />
-Dans ce chapitre, basé sur mes expériences et mes recherches, je traiterai des différences de développement bare-metal et sur OS embarqué. J'aborderai en particulier des points que j'ai rencontré
+Dans ce chapitre, je tenterai de comparer, dans la mesure de mon expérience personnelle, le développement bare-metal et sur OS embarqué. J'essaierai d'illustrer mes propos par des exemples avec des points rencontrés. Pour l'instant, je pense pouvoir parler des points suivants:
+
+Les points 1) concernent la programmation bare-metal et 2) la programmation sur OS (embarqué)
 
 * Gestion de la mémoire
 
-  1. Registre, flash
+  1. Registre, flash: nécessaire de connaître le matériel (spécification)
 
-  2. Allocation dynamique
+  2. Allocation dynamique: appel **système**
 
-* Multitâche
+* Multitâche <br />
+Pour ce point, je pense comparer comment s'organise le multitâche sur bare-metal et sur OS. 1) et 2) sont les outils que j'ai pu utilisé dans ce cadre
 
   1. Interruption, ordonnancement
 
   2. Thread, sémaphore
 
-* Standardisation
+* Standardisation <br />
+Ici, je pensais parler la standardisation du code, surtout présente sur OS embarqué, et son incidence sur la programmation
 
   1. Bibliothèque ou framework propriétaire
 
   2. Posix
+
+À la fin, il s'agit de s'être fait une idée sur quelques tenants et aboutissants entre le développement bare-metal et sur OS embarqué
 
 ## Conclusion
 
